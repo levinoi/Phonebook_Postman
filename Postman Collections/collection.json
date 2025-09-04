@@ -275,8 +275,11 @@
 									"listen": "prerequest",
 									"script": {
 										"id": "9751c73f-f6c3-43ef-b155-833c7c64538a",
-										"exec": [],
-										"type": "text/javascript"
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
 									}
 								}
 							],
@@ -295,7 +298,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n            \"id\": \"{{id}}\",\n            \"name\": \"Mariya\",\n            \"lastName\": \"Levina\",\n            \"email\": \"mar@mail.com\",\n            \"phone\": \"443538026476\",\n            \"address\": \"address\",\n            \"description\": \"test description - updated\"\n        }\n\n        ",
+									"raw": "{\n            \"id\": \"271b3566-8d61-4c6f-9f9a-863a72802146\",\n            \"name\": \"Mariya\",\n            \"lastName\": \"Levina\",\n            \"email\": \"mar@mail.com\",\n            \"phone\": \"443538026476\",\n            \"address\": \"address\",\n            \"description\": \"test description - updated\"\n        }\n\n        ",
 									"options": {
 										"raw": {
 											"language": "json"
